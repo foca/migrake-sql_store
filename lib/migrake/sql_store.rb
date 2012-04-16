@@ -1,5 +1,6 @@
 require "migrake"
 require "sequel"
+require "migrake/sql_store/version"
 
 class Migrake::SQLStore
   # Public: Connect to the database.
