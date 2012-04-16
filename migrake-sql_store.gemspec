@@ -1,6 +1,4 @@
-# For some reason, 'require "migrake/version"' doesn't work in jruby (1.6.6, on
-# 1.9 mode), even with RUBYOPT=-Ilib, so resorting to this hackery.
-require File.expand_path("../lib/migrake/sql_store/version", __FILE__)
+require "migrake/sql_store/version"
 
 Gem::Specification.new do |s|
   s.name        = "migrake-sql_store"
