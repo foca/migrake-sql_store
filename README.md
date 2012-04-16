@@ -1,5 +1,7 @@
 # Migrake::SQLStore
 
+[![Build Status](https://secure.travis-ci.org/foca/migrake-sql_store.png?branch=master)](http://travis-ci.org/foca/migrake-sql_store)
+
 An extension for [Migrake][migrake] that stores the rake tasks that you ran in a
 SQL database instead of the filesystem, useful for hosts like [Heroku][heroku]
 where you have a read-only filesystem.
